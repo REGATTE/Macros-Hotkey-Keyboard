@@ -1,5 +1,7 @@
 # Macros Hot-keys
 
+The preseent code is only for the keys, the rotary encoder and keys will be added in the next week.
+
 ### Parts List
 
 | Part | No.s | Note |
@@ -30,5 +32,11 @@ And a 3D printer 😂.
 **Front View**
 ![Front View](Images/Front_View.png)
 
+## Keymap
+
+![Keymap](Images/keymap.png)
+
 ## Circuit
+
+![Circuit](Images/circuit.png)
 
