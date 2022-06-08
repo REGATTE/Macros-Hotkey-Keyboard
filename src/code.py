@@ -125,8 +125,9 @@ while True:
         keyboard.send(Keycode.SHIFT, Keycode.COMMAND, Keycode.N)
         time.sleep(0.1)
     # Keycode class defines USB HID keycodes to send using Keyboard.  
-    # NULL
+    # Internal Terminal VSCode
     if btn6.value:
+        keyboard.send(Keycode.CONTROL, Keycode.SHIFT, Keycode.ESCAPE)
         time.sleep(0.1)
     # Keycode class defines USB HID keycodes to send using Keyboard.
     # paste  
