@@ -31,6 +31,4 @@ while True:
     # open VMWare Fusion App``
     if btn1.value:
         keyboard.send(Keycode.COMMAND, Keycode.SPACE) # to run keyboard clicks
-        time.sleep(0.1)
         write_text.write('VMware Fusion\n') # to type something possibly in the search bar or terminal or however you set it up.
-        time.sleep(0.1)
