@@ -1,7 +1,16 @@
 # Code
 
-## Setting up environment
+## About
 
+Adafruit's CircuitPython is an open-source implementation of Python for microcontrollers. It's derived from (also known as, a "fork" of) MicroPython, a ground-breaking implementation of Python for microcontrollers and constrained environments.
+
+CircuitPython ships on many Adafruit products. We regularly create new releases and make it easy to update your installation with new builds.
+
+However, you might want to build your own version of CircuitPython. You might want to keep up with development versions between releases, adapt it to your own hardware, add or subtract features, or add "frozen" modules to save RAM space. This guide explains how to build CircuitPython yourself.
+
+CircuitPython is meant to be built in a POSIX-style build environment. We'll talk about building it on Linux-style systems or on MacOS. It's possible, but tricky, to build in other environments such as CygWin or MinGW: we may cover how to use these in the future.
+
+## Setting up environment
 > First install the adafruit circuit-python environment in RPi Pico.
 
 - Connect the Pico to the laptop while holding the reset button. A new disk should appear in your system.
